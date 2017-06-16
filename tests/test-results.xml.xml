@@ -1,0 +1,31 @@
+<testsuite name="nosetests" time="0.0" tests="17" failures="0" errors="0" disabled="0" skipped="0">
+   <testcase name="test_should_import_modules" time="0.0" classname="test_importable.TestImportable"/>
+   <testcase name="test_get_project" time="0.0" classname="test_project.TestProject">
+      <skipped type="unittest.case.SkipTest" message="Skip all Project tests. See DEV-397.">SkipTest: Skip all Project tests. See DEV-397.
+</skipped>
+   </testcase>
+   <testcase name="test_offline_analysis" time="0.0" classname="test_project.TestProject">
+      <skipped type="unittest.case.SkipTest" message="Skip all Project tests. See DEV-397.">SkipTest: Skip all Project tests. See DEV-397.
+</skipped>
+   </testcase>
+   <testcase name="test_project_activation" time="0.0" classname="test_project.TestProject">
+      <skipped type="unittest.case.SkipTest" message="Skip all Project tests. See DEV-397.">SkipTest: Skip all Project tests. See DEV-397.
+</skipped>
+   </testcase>
+   <testcase name="test_user_creation" time="0.0" classname="test_project.TestProject">
+      <skipped type="unittest.case.SkipTest" message="Skip all Project tests. See DEV-397.">SkipTest: Skip all Project tests. See DEV-397.
+</skipped>
+   </testcase>
+   <testcase name="test_cannot_logout_twice" time="0.154" classname="test_account.TestAccount"/>
+   <testcase name="test_empty_user" time="0.012" classname="test_account.TestAccount"/>
+   <testcase name="test_get_project_by_id" time="0.068" classname="test_account.TestAccount"/>
+   <testcase name="test_get_project_by_name" time="0.067" classname="test_account.TestAccount"/>
+   <testcase name="test_invalid_password" time="0.013" classname="test_account.TestAccount"/>
+   <testcase name="test_invalid_user" time="0.014" classname="test_account.TestAccount"/>
+   <testcase name="test_login" time="0.046" classname="test_account.TestAccount"/>
+   <testcase name="test_logout" time="0.043" classname="test_account.TestAccount"/>
+   <testcase name="test_projects" time="0.039" classname="test_account.TestAccount"/>
+   <testcase name="test_should_fail_to_get_invalid_project_by_id" time="0.05" classname="test_account.TestAccount"/>
+   <testcase name="test_should_fail_to_get_invalid_project_by_name" time="0.04" classname="test_account.TestAccount"/>
+   <testcase name="test_should_log_in_when_account_object_created" time="0.026" classname="test_account.TestAccount"/>
+</testsuite>
